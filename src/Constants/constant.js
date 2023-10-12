@@ -1,5 +1,5 @@
 const data = {
-    URL : "https://ratingsserver.onrender.com/"
+    URL : "http://localhost:8080"
 }
 
 export default data;

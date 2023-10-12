@@ -1,9 +1,9 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from 'axios'
-
+import data from "../Constants/constant";
 //Creating separate costant for baseURL
 const api = axios.create({
-    baseURL: "https://ratingsserver.onrender.com/"
+    baseURL: data.URL
 })
 
 // createAsyncThunk is a function that delays the execution of a function or block of code until it is called again
